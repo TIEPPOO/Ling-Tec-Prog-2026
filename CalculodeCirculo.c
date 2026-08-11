@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 	raioQuadrado = raio*raio;
 	area = pi * raioQuadrado;
 	
-	printf("A area do circulo de raio %f = %f", raio, area);
+	printf("A area do circulo de raio %f = %f\n", raio, area);
 	
 	// trapezio
 	 
