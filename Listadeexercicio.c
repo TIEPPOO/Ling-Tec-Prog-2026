@@ -34,23 +34,31 @@ int main(int argc, char *argv[]) {
 	
 /////////////// 3 round  //////
 	
-	int n;
-	int bits[7];
-	int i;
+	i	int n, res;
+	int bit_64, bit_32, bit_16, bit_8, bit_4, bit_2;
 	
-	printf("\nDigite um numero para transformar em binario (menor que 64): ");
+	printf("Insira o valor: ");
 	scanf("%d", &n);
 	
-	if (n <= 0 || n >= 64) 
-	{
-    printf("Numero invalido\n");
-    return 1;
-	}
+	bit_64 = n%2; /////% resto da divisão
+	res = n/2; //// sempre calcular na mão
 	
-	while (n > 0) {
-    bits[i] = n % 2;
-    n = n / 2;
-    i++;
+	bit_32 = res%2;
+	res = res/2;
+	
+	bit_16 = res%2;
+	res = res/2;
+	
+	bit_8 = res%2;
+	res = res/2;
+	
+	bit_4 = res%2;
+	res = res/2;
+	
+	bit_2 = res%2;
+	res = res/2;
+	
+	printf("O numero %d em binario = %d%d%d%d%d%d%d", n, res%2,bit_2, bit_4, bit_8, bit_16,bit_32, bit_64);
 }
 
 printf("Em binario: ");
