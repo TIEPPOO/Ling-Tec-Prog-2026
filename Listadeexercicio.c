@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main(int argc, char *argv[]) {
 	
@@ -59,18 +60,6 @@ int main(int argc, char *argv[]) {
 	res = res/2;
 	
 	printf("O numero %d em binario = %d%d%d%d%d%d%d", n, res%2,bit_2, bit_4, bit_8, bit_16,bit_32, bit_64);
-}
-
-printf("Em binario: ");
-int j = i - 1;
-while (j >= 0) {
-    printf("%d", bits[j]);
-    j--;
-	}
-  
-    printf("\n");
-  
-    
 
 //////////////// round 4 /////////
 
@@ -90,9 +79,30 @@ while (j >= 0) {
 	
 	
 	
+
+
+
+
+
+	////////////////// round 8
+
+		int x1, x2, y1, y2, p1, p2;
+	float dis;
 	
-
-
+	printf("Insira o valor do par ordenado p1(x1,y1): ");
+	scanf("%d", &x1);
+	scanf("%d", &y2);
+	
+	printf("Insira o valor do par ordenado p2(x2,y2): ");
+	scanf("%d", &x2);
+	scanf("%d", &y2);
+	
+	p1 = pow(x2-x1,2); ///pow = elevado
+	p2 = pow(y2-y1,2);
+	
+	dis = sqrt(p1+p2);   /// sqrt raiz quadrada
+	
+	printf("A distancia entre P1 e P2 = %f", dis);
 
   
 	
