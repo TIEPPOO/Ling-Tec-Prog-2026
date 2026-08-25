@@ -28,22 +28,19 @@ int main(int argc, char *argv[]) {
 	*/
 	
 	
-	int n, inverso;
+	int n, r;
 	
 	printf("Insira os valor:");
-	scanf("&d", n);
+	scanf("%d", &n);
 	
 	
 	
-	if (n<0){
-	
-	inverso = 1 / n;
-	
- } 
- 
- 
- 
- printf("%d o valor e:", inverso);
+	if (n>0){
+		r = n*-1;
+    }else{
+    	r = n*n;
+	}
+ 	printf("%d", r);
 	
 	
 	
