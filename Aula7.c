@@ -6,7 +6,7 @@ par mostre o resultado da soma com 2. Se for impar mostre seu proximo e seu ante
 
 int main(int argc, char *argv[]) {
 	
-/*	int n;
+	int n;
 	printf("Entre com o numero: ");
 	scanf("%d", &n);
 	    // equivalente (n>=1 && n <-10)
@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 		else
 			printf("|%d|%d|%d|", n-1, n, n+1);
 		
-	else printf("out _of_range"); */
+	else printf("out _of_range"); 
 	
 	
 
