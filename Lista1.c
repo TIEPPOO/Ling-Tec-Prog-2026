@@ -8,3 +8,16 @@
 	
 	
 	printf("Os numeros digitados sao: %d %d\n", b, a);
+
+
+//////////////////// SEGUNDO \\\\\\\\\\\\\\\\\\\\\\\
+
+	double notacao;
+	
+	printf("Digite a notacao: ");
+	scanf("%lf", &notacao);
+	
+	printf("%lfx10\n", notacao);
+
+
+
