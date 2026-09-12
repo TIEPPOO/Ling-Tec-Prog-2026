@@ -68,7 +68,42 @@ float salariobase, vendas, comissao;
 	printf("Seu salario vai ser: %f", comissao);
 	
 	
+//////////////////////// QUINTO //////////////////////
+
+	int valor1, valor2, valor3, valor4, soma, produtorio;
+	float media;
 	
+	printf("Digite o primeiro valor: ");
+	scanf("%d", &valor1);
+	
+	printf("Digite o segundo valor: ");
+	scanf("%d", &valor2);
+
+	printf("Digite o terceiro valor: ");
+	scanf("%d", &valor3);
+	
+	printf("Digite o quarto valor: ");
+	scanf("%d", &valor4);
+	
+	soma = (valor1 + valor2 + valor3 + valor4);
+	
+	media = soma /4;
+	
+	produtorio = (valor1 * valor2 * valor3 * valor4);
+	
+	
+	
+	
+	
+	printf("A soma dos produtos:%d\n", soma);
+	printf("A media dos produtos:%f\n", media);
+	printf("A soma do produtorio:%d\n", produtorio);
+
+
+
+//////////////////////// SEXTO /////////////////////////////////
+
+
 	
 
 
