@@ -1,8 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+	
 int main(int argc, char *argv[]) {
 
 
+int resposta;
+
+printf("Qual o pokemon(ex) voce quer calular?  1|2|3|4|5|6|7|8|\n ");
+scanf("%d", &resposta);
 
 
+
+
+switch(resposta){
+
+case 1:
+
+;
 int a,b;
 	
 	printf("Digite o seu primeiro numero: ");
@@ -13,18 +28,32 @@ int a,b;
 	
 	
 	printf("Os numeros digitados sao: %d %d\n", b, a);
+	
+	break;
 
 
 //////////////////// SEGUNDO \\\\\\\\\\\\\\\\\\\\\\\
 
+
+
 	double notacao;
+	
+case 2:
+	
+;
 	
 	printf("Digite a notacao: ");
 	scanf("%lf", &notacao);
 	
 	printf("%lfx10\n", notacao);
+	
+	break;
 
 ////////////////////// TERCEIRO /////////////////
+
+case 3:
+
+;
 
 
 	
@@ -54,10 +83,14 @@ int n, res;
 	
 	printf("O numero %d em binario = %d%d%d%d%d%d%d", n, res%2,bit_2, bit_4, bit_8, bit_16,bit_32, bit_64);
 
-
+break;
 
 
 ////////////////////////// QUARTA ///////////////////////////////////
+
+case 4:
+	
+;
 
 float salariobase, vendas, comissao;
 	
@@ -72,8 +105,14 @@ float salariobase, vendas, comissao;
 	
 	printf("Seu salario vai ser: %f", comissao);
 	
+	break;
+	
 	
 //////////////////////// QUINTO //////////////////////
+
+case 5:
+	
+;
 
 	int valor1, valor2, valor3, valor4, soma, produtorio;
 	float media;
@@ -103,10 +142,16 @@ float salariobase, vendas, comissao;
 	printf("A soma dos produtos:%d\n", soma);
 	printf("A media dos produtos:%f\n", media);
 	printf("A soma do produtorio:%d\n", produtorio);
+	
+break;
 
 
 
 //////////////////////// SEXTO /////////////////////////////////
+
+case 6:
+	
+;
 
 	int idade;
 	int meses, anos;
@@ -121,9 +166,15 @@ float salariobase, vendas, comissao;
 	printf("A sua idade em dias e: %d\n", idade);
 	printf("A sua idade em meses e: %d\n", meses);
 	printf("A sua idade em anos e: %d\n", anos);
+	
+break;
 
 
 ///////////// SETIMO /////////////////////
+
+case 7:
+	
+;
 
 	double raio, pi, volume;
 
@@ -139,6 +190,8 @@ float salariobase, vendas, comissao;
     volume = ((4.0 / 3.0) * pi * raio * raio * raio);
 
     printf("VOLUME = %lf\n", volume);
+    
+break;
 
 
 	
@@ -148,8 +201,12 @@ float salariobase, vendas, comissao;
 
 
 	////////////////// OITAVA ///////////////////////////////
+	
+case 8:
+	
+;
 
-		int x1, x2, y1, y2, p1, p2;
+	int x1, x2, y1, y2, p1, p2;
 	float dis;
 	
 	printf("Insira o valor do par ordenado p1(x1,y1): ");
@@ -166,6 +223,11 @@ float salariobase, vendas, comissao;
 	dis = sqrt(p1+p2);   /// sqrt raiz quadrada
 	
 	printf("A distancia entre P1 e P2 = %f", dis);
-
-
-
+	
+	break;
+	
+}
+	
+	
+	return 0;
+}
