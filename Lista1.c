@@ -1,4 +1,9 @@
-	int a,b;
+int main(int argc, char *argv[]) {
+
+
+
+
+int a,b;
 	
 	printf("Digite o seu primeiro numero: ");
 	scanf("%d", &a);
@@ -21,7 +26,7 @@
 
 ////////////////////// TERCEIRO /////////////////
 
-int main(int argc, char *argv[]) {
+
 	
 int n, res;
 	int bit_64, bit_32, bit_16, bit_8, bit_4, bit_2;
