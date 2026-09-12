@@ -54,5 +54,46 @@ int n, res;
 
 ////////////////////////// QUARTA ///////////////////////////////////
 
+float salariobase, vendas, comissao;
+	
+	printf("\nQual seu salario base: ");
+	scanf("%f", &salariobase);
+	
+	printf("\nQual o valor de suas vendas: ");
+	scanf("%f", &vendas);
+	
+	
+	comissao = salariobase + (vendas * 0.15);
+	
+	printf("Seu salario vai ser: %f", comissao);
+	
+	
+	
+	
+
+
+
+
+
+	////////////////// OITAVA ///////////////////////////////
+
+		int x1, x2, y1, y2, p1, p2;
+	float dis;
+	
+	printf("Insira o valor do par ordenado p1(x1,y1): ");
+	scanf("%d", &x1);
+	scanf("%d", &y2);
+	
+	printf("Insira o valor do par ordenado p2(x2,y2): ");
+	scanf("%d", &x2);
+	scanf("%d", &y2);
+	
+	p1 = pow(x2-x1,2); ///pow = elevado
+	p2 = pow(y2-y1,2);
+	
+	dis = sqrt(p1+p2);   /// sqrt raiz quadrada
+	
+	printf("A distancia entre P1 e P2 = %f", dis);
+
 
 
