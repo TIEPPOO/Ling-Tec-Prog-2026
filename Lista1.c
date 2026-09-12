@@ -108,6 +108,25 @@ float salariobase, vendas, comissao;
 
 //////////////////////// SEXTO /////////////////////////////////
 
+	int idade;
+	int meses, anos;
+	
+	printf("Qual a sua idade em dias ");
+	scanf("%d", &idade);
+	
+	meses = idade /30;
+	
+	anos = idade / 360;
+	
+	printf("A sua idade em dias e: %d\n", idade);
+	printf("A sua idade em meses e: %d\n", meses);
+	printf("A sua idade em anos e: %d\n", anos);
+
+
+///////////// SETIMO /////////////////////
+
+
+
 
 	
 
