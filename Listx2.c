@@ -57,7 +57,17 @@ int main(int argc, char *argv[]) {
 //////// EX 4  /////////////////
 
 
+float celsius, fahrenheit;
+	
+	printf(" Qual a temperatura agora: ");
+	scanf("%f", &celsius);
+	
+	fahrenheit = (celsius * (9.0/5.0) + 32.0);
+	
+	printf("A temperatura em fahrenheit e:%f", fahrenheit);
 
+
+////////////// ex 5 ///////////////////
 
 
 
