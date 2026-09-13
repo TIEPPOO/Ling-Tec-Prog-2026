@@ -39,6 +39,22 @@ int main(int argc, char *argv[]) {
 	////// EX 3 ////////////////////////
 
 
+	float dolar, real, cota;
+	
+	printf("Quantos reais voce tem? ");
+	scanf("%f", &real);
+	
+	printf("Qual e a conta de hoje? ");
+	scanf("%f", &cota);
+	
+	
+	
+	
+	printf("%f reais sao %f em trumps\n", real, (real/cota));
+
+
+
+//////// EX 4  /////////////////
 
 
 
