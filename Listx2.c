@@ -4,7 +4,23 @@
 
 int main(int argc, char *argv[]) {
 
+////// EX 1 /////////////////
 
+	int idade, anodenascimento, ano;
+	
+	printf("Qual a sua idade? ");
+	scanf("%d", &idade);
+	
+	printf("Qual ano atual?  ");
+	scanf("%d", &ano);
+	
+	anodenascimento = ano - idade;
+	
+	printf("Voce nasceu noa no de: %d",anodenascimento);
+
+
+
+	//////////////// EX 2 //////////////////////
 
 
 
