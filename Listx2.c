@@ -22,7 +22,21 @@ int main(int argc, char *argv[]) {
 
 	//////////////// EX 2 //////////////////////
 
+	float kmh, ms;
+	
+	printf("Quantos por HM/H voce esta? ");
+	scanf("%f", &kmh);
+	
+	ms = kmh / 3.6;
+	
+	printf("A sua velocidade e: %f ", ms);
+	
+	
+	
+	return 0;
 
+
+	////// EX 3 ////////////////////////
 
 
 
