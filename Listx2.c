@@ -70,7 +70,21 @@ float celsius, fahrenheit;
 ////////////// ex 5 ///////////////////
 
 
+	float graus, pi, radianos;
+	
+	printf("Quantos graus tem seu angulo: ");
+	scanf("%f", &graus);
+	
+	pi = 3.141592;
+	
+	radianos = (graus * pi/180);
+	
+	printf("Graus em radianos e: %f", radianos); 
 
+
+	////////// ex 6 ///////////
+
+	
 
 
 
