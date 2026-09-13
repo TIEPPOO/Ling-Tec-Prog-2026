@@ -84,7 +84,19 @@ float celsius, fahrenheit;
 
 	////////// ex 6 ///////////
 
+	int numeroatual, sucessor, antecessor;
 	
+	printf("Qual numero voce quer escolher: ");
+	scanf("%d", &numeroatual);
+	
+	sucessor = numeroatual + 1;
+	antecessor = numeroatual - 1;
+	
+	printf("O numero sucessor de %d e %d\n", numeroatual, sucessor);
+	printf("O numero antecessor de %d e %d", numeroatual, antecessor);
+
+
+	/////// EX 7 ////////
 
 
 
