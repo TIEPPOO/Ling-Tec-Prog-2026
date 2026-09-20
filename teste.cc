@@ -116,10 +116,37 @@ int main(){
 
     case 1:
         printf("+--------------------------------------------+| CONSULTAR SALDO NA CONTA |+--------------------------------------------+\n");
+        
+        printf("+--------------------------------------------+\n");
+        printf("| Descricao:     Saldo Bancario              |\n");
+        printf("+--------------------------------------------+\n");
+        printf("| Nome: %-37.37s|\n" , nome_selecionado);
+        printf("| Data de Nascimento: %-23.23s|\n", data_nascimento);
+        printf("| CPF: %-38s|\n", cpf_salvo);
+        printf("| Valor total:   R$: %-23.2f |\n", saldo_atual);
+        printf("+--------------------------------------------+\n");
         break;
 
     case 2:
         printf("+--------------------------------------------+| DEPOSITAR SALDO NA CONTA |+--------------------------------------------+\n");
+        
+        float deposito;
+        
+        printf("Qual valor quer depositar? ");
+        scanf("%f", &deposito);
+        
+        
+        printf("+--------------------------------------------+\n");
+        printf("| Descricao:     Deposito em  Conta          |\n");
+        printf("| Descricao:     Emprestimo Pessoal          |\n");
+        printf("| Nome: %-37.37s|\n" , nome_selecionado);
+        printf("| Data de Nascimento: %-23.23s|\n", data_nascimento);
+        printf("| CPF: %-38s|\n", cpf_salvo);
+        printf("+--------------------------------------------+\n");
+        printf("|Valor disponivel na conta: R$: %-13.2f|\n", saldo_atual + deposito);
+        printf("+--------------------------------------------+\n");
+        
+        
         break;
 
     case 3:
