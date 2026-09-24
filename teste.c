@@ -145,8 +145,6 @@ int main(){
         printf("+--------------------------------------------+\n");
         printf("|Valor disponivel na conta: R$: %-13.2f|\n", saldo_atual + deposito);
         printf("+--------------------------------------------+\n");
-        
-        
         break;
 
     case 3:
