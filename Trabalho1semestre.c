@@ -151,7 +151,26 @@ int main(){
 
     case 3:
         printf("+--------------------------------------------+| RETIRAR SALDO NA CONTA |+----------------------------------------------+\n");
-        break;
+        
+		float deposito_negativo;
+		
+		printf("Qual valor quer retirar? ");
+        scanf("%f", &deposito_negativo);
+        
+        
+        printf("+--------------------------------------------+\n");
+        printf("| Descricao:     Deposito em  Conta          |\n");
+        printf("| Descricao:     Emprestimo Pessoal          |\n");
+        printf("| Nome: %-37.37s|\n" , nome_selecionado);
+        printf("| Data de Nascimento: %-23.23s|\n", data_nascimento);
+        printf("| CPF: %-38s|\n", cpf_salvo);
+        printf("+--------------------------------------------+\n");
+        printf("|Valor disponivel na conta: R$: %-13.2f|\n", saldo_atual - deposito_negativo);
+        printf("+--------------------------------------------+\n");
+		
+		
+		
+		break;
 
     case 4:
         printf("+--------------------------------------------+| SIMULACAO DE EMPRESTIMO |+---------------------------------------------+\n");
