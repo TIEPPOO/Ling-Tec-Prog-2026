@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 
+/////// CONTRIBUICOES ///////
+/// FIZEMOS O TRABALHO NO DEV C++, A GENTE FEZ EM CALL, CADA UM FEZ SUA PARTE E JUNTMOS EM UM REPOSITORIO
+// ENDERSON: STRUCT, VARIAVEIS, VALIDACAO DE CPF E PARTE GRAFICA
+// DIELSON: SWITCH, VALORES DOS CALCULOS E VARIAVEIS
+// RAUL: PARTE GRAFICA E REVISAO
+// KEVYN: REVISAO
+
+
 struct Conta { 
     int idapessoa;
     char nome[20];
@@ -384,3 +392,12 @@ int main(){
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
