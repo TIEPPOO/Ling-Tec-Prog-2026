@@ -25,6 +25,10 @@ int main(){
     struct Conta c2 = {2, "Jose Da Paz", 2000.00, "11/12/1989"};
     struct Conta c3 = {3, "Valdecir Fulano", 4000.00,"12/01/2004"};
     
+    
+    printf("|++++++++++++++ Bem vindo a banco MASTER, seu banco de confianca ++++++++++++++|\n");
+    
+    
     printf("ID: %d |Nome: %-15s |\n",c1.idapessoa, c1.nome);
     printf("ID: %d |Nome: %-15s |\n",c2.idapessoa, c2.nome);
     printf("ID: %d |Nome: %-15s |\n",c3.idapessoa, c3.nome);
@@ -199,7 +203,7 @@ int main(){
                 printf("| CPF: %-38s|\n", cpf_salvo);
                 printf("| Valor total:   R$: %-23.2f |\n", juros);
                 printf("| Qtd. parcelas: %-27d |\n", 1);
-                printf("| Juros ao mes:  0%%                          |\n");
+                printf("| Juros da div:  0%%                          |\n");
                 printf("+--------------------------------------------+\n");
                 printf("|Valor de cada parcela: R$: %-17.2f|\n", juros);
                 printf("+--------------------------------------------+\n");
@@ -235,7 +239,7 @@ int main(){
                 printf("| CPF: %-38s|\n", cpf_salvo);
                 printf("| Valor total:   R$: %-23.2f |\n", juros);
                 printf("| Qtd. parcelas: %-27d |\n", 3);
-                printf("| Juros ao mes:  10%%                         |\n");
+                printf("| Juros da div:  10%%                         |\n");
                 printf("+--------------------------------------------+\n");
                 printf("|Valor de cada parcela: R$: %-17.2f|\n",parcela_divida);
                 printf("+--------------------------------------------+\n");
@@ -253,7 +257,7 @@ int main(){
                 printf("| CPF: %-38s|\n", cpf_salvo);
                 printf("| Valor total:   R$: %-23.2f |\n", juros);
                 printf("| Qtd. parcelas: %-27d |\n", 4);
-                printf("| Juros ao mes:  15%%                         |\n");
+                printf("| Juros da div:  15%%                         |\n");
                 printf("+--------------------------------------------+\n");
                 printf("|Valor de cada parcela: R$: %-17.2f|\n",parcela_divida);
                 printf("+--------------------------------------------+\n");
@@ -271,7 +275,7 @@ int main(){
                 printf("| CPF: %-38s|\n", cpf_salvo);
                 printf("| Valor total:   R$: %-23.2f |\n", juros);
                 printf("| Qtd. parcelas: %-27d |\n", 5);
-                printf("| Juros ao mes:  20%%                         |\n");
+                printf("| Juros da div:  20%%                         |\n");
                 printf("+--------------------------------------------+\n");
                 printf("|Valor de cada parcela: R$: %-17.2f|\n",parcela_divida);
                 printf("+--------------------------------------------+\n");
@@ -289,7 +293,7 @@ int main(){
                 printf("| CPF: %-38s|\n", cpf_salvo);
                 printf("| Valor total:   R$: %-23.2f |\n", juros);
                 printf("| Qtd. parcelas: %-27d |\n", 6);
-                printf("| Juros ao mes:  30%%                         |\n");
+                printf("| Juros da div:  30%%                         |\n");
                 printf("+--------------------------------------------+\n");
                 printf("|Valor de cada parcela: R$: %-17.2f|\n",parcela_divida);
                 printf("+--------------------------------------------+\n");
@@ -307,7 +311,7 @@ int main(){
                 printf("| CPF: %-38s|\n", cpf_salvo);
                 printf("| Valor total:   R$: %-23.2f |\n", juros);
                 printf("| Qtd. parcelas: %-27d |\n", 7);
-                printf("| Juros ao mes:  35%%                         |\n");
+                printf("| Juros da div:  35%%                         |\n");
                 printf("+--------------------------------------------+\n");
                 printf("|Valor de cada parcela: R$: %-17.2f|\n",parcela_divida);
                 printf("+--------------------------------------------+\n");
@@ -325,7 +329,7 @@ int main(){
                 printf("| CPF: %-38s|\n", cpf_salvo);
                 printf("| Valor total:   R$: %-23.2f |\n", juros);
                 printf("| Qtd. parcelas: %-27d |\n", 8);
-                printf("| Juros ao mes:  40%%                         |\n");
+                printf("| Juros da div:  40%%                         |\n");
                 printf("+--------------------------------------------+\n");
                 printf("|Valor de cada parcela: R$: %-17.2f|\n",parcela_divida);
                 printf("+--------------------------------------------+\n");
@@ -343,7 +347,7 @@ int main(){
                 printf("| CPF: %-38s|\n", cpf_salvo);
                 printf("| Valor total:   R$: %-23.2f |\n", juros);
                 printf("| Qtd. parcelas: %-27d |\n", 9);
-                printf("| Juros ao mes:  45%%                         |\n");
+                printf("| Juros da div:  45%%                         |\n");
                 printf("+--------------------------------------------+\n");
                 printf("|Valor de cada parcela: R$: %-17.2f|\n",parcela_divida);
                 printf("+--------------------------------------------+\n");
@@ -361,7 +365,7 @@ int main(){
                 printf("| CPF: %-38s|\n", cpf_salvo);
                 printf("| Valor total:   R$: %-23.2f |\n", juros);
                 printf("| Qtd. parcelas: %-27d |\n", 10);
-                printf("| Juros ao mes:  50%%                         |\n");
+                printf("| Juros da div:  50%%                         |\n");
                 printf("+--------------------------------------------+\n");
                 printf("|Valor de cada parcela: R$: %-17.2f|\n",parcela_divida);
                 printf("+--------------------------------------------+\n");
