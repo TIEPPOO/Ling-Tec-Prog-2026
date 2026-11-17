@@ -26,7 +26,7 @@ int main(){
     struct Conta c3 = {3, "Valdecir Fulano", 4000.00,"12/01/2004"};
     
     
-    printf("|++++++++++++++ Bem vindo a banco MASTER, seu banco de confianca ++++++++++++++|\n");
+    printf("|++++++++++++++ Bem vindo a Banco MASTER, seu banco de confianca ++++++++++++++|\n");
     
     
     printf("ID: %d |Nome: %-15s |\n",c1.idapessoa, c1.nome);
